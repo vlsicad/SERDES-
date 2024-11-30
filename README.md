@@ -58,9 +58,14 @@ The serial_out is looped back to the receiver for testing.
 Output Validation:
 The 10-bit encoded data is deserialized and decoded into the original 8-bit data.
 
+![op1](./op1.JPG)
+![op2](./op2.JPG)
 
 Future Improvements
 Add error-checking mechanisms such as disparity or frame alignment in the encoding/decoding process.
 Support for dynamic clock domains between the transmitter and receiver.
 Extend testbench for randomized inputs and larger datasets.
+![maxtime](./maxtime.JPG)
+![mintime](./mintime.JPG)
+![pwr](./pwr.JPG)
 

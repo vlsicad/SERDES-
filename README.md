@@ -1,7 +1,7 @@
 # SERDES-
 Overview
 This project implements a SerDes (Serializer/Deserializer) module with 8b/10b encoding and decoding in Verilog. It handles the following operations:
-
+![block schematic](./sch1.JPG)
 1 Transmitter (Serialization):
 Converts 8-bit parallel data into a 10-bit encoded word and serializes it into a high-speed serial stream.
 2 Receiver (Deserialization):

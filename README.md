@@ -44,6 +44,7 @@ serial_out	Output	Serialized high-speed output.
 data_out	  Output	8-bit parallel data after deserialization and decoding.
 valid_out	  Output	Indicates valid output data.
 
+
 Simulation Steps
 Clock Generation:
 The transmitter clock (clk_tx) operates at 100 MHz.
@@ -57,4 +58,9 @@ The serial_out is looped back to the receiver for testing.
 Output Validation:
 The 10-bit encoded data is deserialized and decoded into the original 8-bit data.
 
+
+Future Improvements
+Add error-checking mechanisms such as disparity or frame alignment in the encoding/decoding process.
+Support for dynamic clock domains between the transmitter and receiver.
+Extend testbench for randomized inputs and larger datasets.
 
